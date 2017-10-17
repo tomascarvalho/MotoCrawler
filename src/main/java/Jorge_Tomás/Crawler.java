@@ -295,9 +295,15 @@ public class Crawler {
 
             } else {
                 Crawler crawler = new Crawler();
+                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-01&search%5Bdescription%5D=1");
+                crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-01/?search%5Bcountry%5D=");
+                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-03&search%5Bdescription%5D=1");
                 crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-07/?search%5Bnew_used%5D=on");
                 crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-07&search%5Bdescription%5D=1");
                 crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-09/?search%5Bcountry%5D=");
+                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-09&search%5Bdescription%5D=1");
+                crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-10/?search%5Bcountry%5D=s");
+                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-10&search%5Bdescription%5D=1");
                 crawler.getAdvertLink();
                 crawler.getAdvertDetails();
                 String xmlString = crawler.marshallList();

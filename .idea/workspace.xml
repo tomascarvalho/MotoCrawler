@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7281ad5-8976-4fe8-8ad5-a0421810e87d" name="Default" comment="" />
+    <list default="true" id="d7281ad5-8976-4fe8-8ad5-a0421810e87d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.xml" afterPath="$PROJECT_DIR$/file.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skeleton.xsd" afterPath="$PROJECT_DIR$/skeleton.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" />
+    </list>
     <ignored path="MotoCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="303" column="16" selection-start-line="303" selection-start-column="16" selection-end-line="303" selection-end-column="16" />
+            <state relative-caret-position="233">
+              <caret line="299" column="181" selection-start-line="299" selection-start-column="181" selection-end-line="299" selection-end-column="181" />
               <folding />
             </state>
           </provider>
@@ -41,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.xsl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylesheet.xsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.xsl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -85,9 +90,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/HTMLConverter.java" />
-        <option value="$PROJECT_DIR$/skeleton.xsd" />
-        <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" />
         <option value="$PROJECT_DIR$/stylesheet.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" />
+        <option value="$PROJECT_DIR$/skeleton.xsd" />
       </list>
     </option>
   </component>
@@ -593,6 +598,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
@@ -603,16 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="303" column="16" selection-start-line="303" selection-start-column="16" selection-end-line="303" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="233">
+          <caret line="299" column="181" selection-start-line="299" selection-start-column="181" selection-end-line="299" selection-end-column="181" />
           <folding />
         </state>
       </provider>

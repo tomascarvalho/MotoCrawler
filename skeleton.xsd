@@ -18,7 +18,7 @@
               <xs:element type="xs:string" name="url"/>
               <xs:element type="xs:string" name="brand" minOccurs="0"/>
               <xs:element type="xs:string" name="model"/>
-              <xs:element type="xs:string" name="month"/>
+              <xs:element type="xs:string" name="month" minOccurs="0"/>
               <xs:element type="xs:int" name="year"/>
               <xs:element type="xs:string" name="advertiser"/>
               <xs:element name="mileage">
@@ -33,7 +33,7 @@
               <xs:element name="horsePower" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:int">
+                    <xs:extension base="xs:short">
                       <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
