@@ -17,11 +17,11 @@
               </xs:element>
               <xs:element type="xs:string" name="url"/>
               <xs:element type="xs:string" name="brand" minOccurs="0"/>
-              <xs:element type="xs:string" name="model"/>
+              <xs:element type="xs:string" name="model" minOccurs="0"/>
               <xs:element type="xs:string" name="month" minOccurs="0"/>
-              <xs:element type="xs:int" name="year"/>
-              <xs:element type="xs:string" name="advertiser"/>
-              <xs:element name="mileage">
+              <xs:element type="xs:int" name="year" minOccurs="0"/>
+              <xs:element type="xs:string" name="advertiser" minOccurs="0"/>
+              <xs:element name="mileage" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:short">

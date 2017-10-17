@@ -8,26 +8,35 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.xml.sax.SAXException;
 
-import java.io.BufferedReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.io.IOException;
-import java.io.File;
-import java.io.FileReader;
-import java.io.StringWriter;
 
 import javax.naming.NamingException;
+import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
 
 
 public class Crawler {
     private List <String> pagesStandvirtual;
     private List <String> pagesOlx;
+    private List <String> pagesCustoJusto;
     private List <String> advertsStandvirtual;
     private List <String> advertsOlx;
+    private List <String> advertsCustoJusto;
     private List <List<String>> advertDetails;
     private Advertisements advertisements;
 
@@ -35,8 +44,10 @@ public class Crawler {
     public Crawler() {
         pagesStandvirtual = new ArrayList <>();
         pagesOlx = new ArrayList<>();
+        pagesCustoJusto = new ArrayList<>();
         advertsStandvirtual = new ArrayList <>();
         advertsOlx = new ArrayList <>();
+        advertsCustoJusto = new ArrayList<>();
         advertDetails = new ArrayList <>();
         advertisements = new Advertisements();
     }
@@ -80,6 +91,25 @@ public class Crawler {
         System.out.println(pagesOlx);
 
     }
+    public void getWebPagesCustoJusto(String URL) {
+        pagesCustoJusto.add(URL);
+        try {
+            Document document = Jsoup.connect(URL).get();
+            Elements otherPages = document.select("a[href^=\"http://www.custojusto.pt/portugal/motos?o=\"/]");
+
+            for (Element page : otherPages) {
+                String pageHref= page.attr("abs:href");
+                if (!pagesCustoJusto.contains(pageHref)) {
+                    pagesCustoJusto.add(pageHref);
+                }
+            }
+
+        } catch (IOException e) {
+            System.err.println(e.getMessage());
+        }
+        System.out.println(pagesCustoJusto);
+    }
+
 
     //Connect to each 'destaques' page get all car advert links
     public void getAdvertLink() {
@@ -115,8 +145,25 @@ public class Crawler {
             }
 
         });
+        pagesCustoJusto.forEach(page -> {
+            try {
+                Document document;
+                document = Jsoup.connect(page).get();
+                Elements advertBoxes = document.getElementById("dalist").children();
+                for (Element advert : advertBoxes) {
+                    String advertHref = advert.attr("abs:href");
+                    if (!advertsCustoJusto.contains(advertHref) && advertHref.toLowerCase().contains("www.custojusto.pt")) {
+                        advertsCustoJusto.add(advertHref);
+                    }
+                }
+            } catch (IOException e) {
+                System.err.println(e.getMessage());
+            }
+
+        });
         System.out.println(advertsStandvirtual);
         System.out.println(advertsOlx);
+        System.out.println(advertsCustoJusto);
     }
 
     //Connect to each advert and scrape the details
@@ -254,6 +301,40 @@ public class Crawler {
                 System.err.println(e.getMessage());
             }
         });
+
+        advertsCustoJusto.forEach(advert -> {
+            Document document;
+            try {
+                document = Jsoup.connect(advert).get();
+                Advertisements.Advert new_advert = new Advertisements.Advert();
+                String advertPrice = new String();
+                String imageUrl = new String();
+                String advertDescription = document.getElementsByClass("words").first().text();
+
+                Elements advertDetails = document.getElementsByClass("list-group-item");
+                advertPrice = document.getElementsByClass("real-price").first().text();
+                System.out.println(advert);
+                try {
+                    imageUrl = document.getElementsByClass("img_big active b-greylight").first().children().first().attr("abs:src");
+                } catch (NullPointerException ne) {
+                    //No image available
+                    imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/No_image_3x4.svg/1024px-No_image_3x4.svg.png";
+                }
+                new_advert.setBrand(advertDescription);
+                Advertisements.Advert.Price price = new Advertisements.Advert.Price();
+                price.setValue(Integer.parseInt(advertPrice.replaceAll("[^\\d]", "")));
+                price.setUnits("€");
+                new_advert.setImageUrl(imageUrl);
+                new_advert.setPrice(price);
+                new_advert.setUrl(advert);
+
+
+                advertisements.getAdvert().add(new_advert);
+
+            } catch (IOException e) {
+                System.err.println(e.getMessage());
+            }
+        });
     }
 
     public String marshallList() {
@@ -282,33 +363,58 @@ public class Crawler {
 
     public static void main(String[] args) {
         try {
-            File file = new File("adverts.xml");
-            if (file.exists() && !file.isDirectory()) {
-                BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-                String line;
-                StringBuilder xmlString = new StringBuilder();
+            File xmlFile = new File("adverts.xml");
+            Crawler crawler = new Crawler();
 
-                while((line=bufferedReader.readLine()) != null){
-                    xmlString.append(line.trim());
+            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-01&search%5Bdescription%5D=1");
+            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-01/?search%5Bcountry%5D=");
+            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-03&search%5Bdescription%5D=1");
+            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-07/?search%5Bnew_used%5D=on");
+            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-07&search%5Bdescription%5D=1");
+            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-09/?search%5Bcountry%5D=");
+            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-09&search%5Bdescription%5D=1");
+            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-10/?search%5Bcountry%5D=s");
+            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-10&search%5Bdescription%5D=1");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/mt-01");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/mt-03");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-07");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-09");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-03");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-01");
+            crawler.getAdvertLink();
+            crawler.getAdvertDetails();
+            String xmlString = crawler.marshallList();
+
+            try
+            {
+                // if file doesnt exists, then create it
+                if (!xmlFile.exists())
+                {
+                    xmlFile.createNewFile();
                 }
-                sendString((xmlString.toString()));
 
-            } else {
-                Crawler crawler = new Crawler();
-                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-01&search%5Bdescription%5D=1");
-                crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-01/?search%5Bcountry%5D=");
-                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-03&search%5Bdescription%5D=1");
-                crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-07/?search%5Bnew_used%5D=on");
-                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-07&search%5Bdescription%5D=1");
-                crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-09/?search%5Bcountry%5D=");
-                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-09&search%5Bdescription%5D=1");
-                crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-10/?search%5Bcountry%5D=s");
-                crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-10&search%5Bdescription%5D=1");
-                crawler.getAdvertLink();
-                crawler.getAdvertDetails();
-                String xmlString = crawler.marshallList();
-                sendString(xmlString);
+                FileWriter fw = new FileWriter(xmlFile.getAbsoluteFile());
+                BufferedWriter bw = new BufferedWriter(fw);
+                bw.write(xmlString);
+                bw.close();
             }
+            catch( IOException e )
+            {
+                System.out.println("Error: " + e);
+                e.printStackTrace( );
+            }
+
+            if (isValidXML(xmlString, "skeleton.xsd")) {
+
+                //transfor to html
+                try {
+                    transformXML(xmlFile);
+                } catch (TransformerException e) {
+                    e.printStackTrace();
+                }
+
+            }
+
         } catch (IOException io) {
             System.err.println(io);
         }
@@ -316,17 +422,42 @@ public class Crawler {
         System.out.println("Crawler Terminated");
     }
 
-    public static void sendString(String xmlString) {
+    //validates the XML against the XSD
+    public static boolean isValidXML(String xml, String xsd)
+    {
+        File schemaFile = new File(xsd);
+        Source xmlFile = new StreamSource(new StringReader(xml));
+        SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
         try {
-            TopicSender sender = new TopicSender();
-            sender.sendToTopic(xmlString);
-            System.out.println("Message sent");
-            File file = new File("adverts.xml");
-            if (file.exists() && !file.isDirectory()) {
-                file.delete();
-            }
-        } catch(NamingException ne) {
-            System.out.println("Error sending XML. XML saved as adverts.xml");
+            Schema schema = schemaFactory.newSchema(schemaFile);
+            Validator validator = schema.newValidator();
+            validator.validate(xmlFile);
+            System.out.println("XML is valid");
+            return true;
+        } catch (SAXException e) {
+            System.out.println("XML is NOT valid because:" + e);
+        } catch (IOException e) {
+            System.err.println(e);
         }
+        return false;
+    }
+
+    //function to tranform the xml fie into HTML
+    public static void transformXML(File xmlFilename) throws TransformerException, FileNotFoundException {
+
+        //XSL template to do the conversion
+        Source xslFile  =  new StreamSource("stylesheet.xsl");
+        //xml file to be converted
+        Source xmlFile =  new StreamSource(xmlFilename);
+
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+
+        //output file
+        OutputStream htmlFile = new FileOutputStream("docs/index.html");
+        //apply the transformation
+        Transformer transform = transformerFactory.newTransformer(xslFile);
+        transform.transform(xmlFile, new StreamResult(htmlFile));
+        //return the html transformed file
+        System.out.println("Html filed created");
     }
 }
