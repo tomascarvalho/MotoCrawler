@@ -18,6 +18,21 @@
         </extras>
     </advert>
     <advert>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/53696765_1_148x110.jpg</imageUrl>
+        <price units="€">5980</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-ID8JxPLc.html#075b246469</url>
+        <brand>Yamaha</brand>
+        <model>MT-07</model>
+        <month>Junho</month>
+        <year>2015</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">499</mileage>
+        <horsePower units="cv">75</horsePower>
+        <displacement units="cm3">6893</displacement>
+        <color>Branco</color>
+        <extras/>
+    </advert>
+    <advert>
         <imageUrl>https://carspt-images.akamaized.net/images_carspt/52810085_1_148x110.jpg</imageUrl>
         <price units="€">7000</price>
         <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-naked-ID8JwVl2.html#075b246469</url>
@@ -83,7 +98,7 @@
         <extras/>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/53459945_1_148x110_rev001.jpg</imageUrl>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/53694910_1_148x110_rev001.jpg</imageUrl>
         <price units="€">6950</price>
         <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-mt-07-ID8JtHTU.html#075b246469</url>
         <brand>Yamaha</brand>
@@ -284,6 +299,30 @@
         <color>branco</color>
     </advert>
     <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928858873_1_644x461_yamaha-mt-07-vila-nova-de-gaia.jpg</imageUrl>
+        <price units="€">5980</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAPKNk.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>6</month>
+        <year>2015</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">499</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>branco</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928857621_1_644x461_yamaha-mt-07-gueda.jpg</imageUrl>
+        <price units="€">5500</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAPKBh.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>5</month>
+        <year>2014</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">13500</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>branco</color>
+    </advert>
+    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928276913_1_644x461_yamaha-mt-07-naked-oeiras_rev006.jpg</imageUrl>
         <price units="€">7000</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-07-naked-IDAOaqx.html#52e22980bc</url>
@@ -355,7 +394,7 @@
         <color>vermelho</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/925410050_1_644x461_yamaha-mt-07-mt-07-viseu_rev276.jpg</imageUrl>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/925410050_1_644x461_yamaha-mt-07-mt-07-viseu_rev292.jpg</imageUrl>
         <price units="€">6950</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-07-mt-07-IDAHgC1.html#52e22980bc</url>
         <model>MT-07</model>
@@ -602,46 +641,16 @@
         <brand>yamaha mt-01</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5021891043-mt-09.jpg?rule=play</imageUrl>
-        <price units="€">9300</price>
-        <url>http://www.custojusto.pt/beja/motos/mt-09-24312552</url>
-        <brand>Mt 09</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4928135637-yamaha-mt-09.jpg?rule=play</imageUrl>
         <price units="€">7600</price>
         <url>http://www.custojusto.pt/acores/motos/yamaha-mt-09-24296570</url>
         <brand>Yamaha MT-09</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/8362036118-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">5600</price>
-        <url>http://www.custojusto.pt/braganca/motos/yamaha-mt-07-23718915</url>
-        <brand>Yamaha MT 07</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4875483152-yamaha-mt-07-2016-c-garantia-3-000km.jpg?rule=play</imageUrl>
-        <price units="€">6490</price>
-        <url>http://www.custojusto.pt/leiria/motos/yamaha-mt-07-2016-c-garantia-3-000km-24280961</url>
-        <brand>Yamaha MT 07 (2016) C/ Garantia 3.000Km</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/982734582-yamaha-mt01.jpg?rule=play</imageUrl>
         <price units="€">8500</price>
         <url>http://www.custojusto.pt/setubal/motos/yamaha-mt01-23084784</url>
         <brand>Yamaha MT01</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4046913000-mt-07-2016.jpg?rule=play</imageUrl>
-        <price units="€">7000</price>
-        <url>http://www.custojusto.pt/lisboa/motos/mt-07-2016-24211207</url>
-        <brand>Mt 07 2016</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3326372234-yamaha-tracer-900-2017.jpg?rule=play</imageUrl>
-        <price units="€">11250</price>
-        <url>http://www.custojusto.pt/lisboa/motos/yamaha-tracer-900-2017-24149183</url>
-        <brand>Yamaha tracer 900 2017</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2992574103-yamaha-mt01.jpg?rule=play</imageUrl>
@@ -656,18 +665,6 @@
         <brand>Yamaha mt07 apenas troco por mota de pista</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5415639094-yamaha-mt-03.jpg?rule=play</imageUrl>
-        <price units="€">4250</price>
-        <url>http://www.custojusto.pt/setubal/motos/yamaha-mt-03-24342187</url>
-        <brand>Yamaha MT 03</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/No_image_3x4.svg/1024px-No_image_3x4.svg.png</imageUrl>
-        <price units="€">5000</price>
-        <url>http://www.custojusto.pt/acores/motos/porque-vou-desistir-de-motos-24311077</url>
-        <brand>porque vou desistir de motos</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3345208935-yamaha-mt-03-2016-abs.jpg?rule=play</imageUrl>
         <price units="€">4700</price>
         <url>http://www.custojusto.pt/lisboa/motos/yamaha-mt-03-2016-abs-24143450</url>
@@ -680,28 +677,16 @@
         <brand>Yamaha MT-03 quase nova</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3134198664-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">5750</price>
-        <url>http://www.custojusto.pt/setubal/motos/yamaha-mt-07-24122995</url>
-        <brand>Yamaha MT 07</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1652190502-yamaha-mt-03-como-nova.jpg?rule=play</imageUrl>
-        <price units="€">3000</price>
-        <url>http://www.custojusto.pt/lisboa/motos/yamaha-mt-03-como-nova-23988112</url>
-        <brand>Yamaha MT 03 como nova</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3896338246-nova-tracer-700.jpg?rule=play</imageUrl>
-        <price units="€">7499</price>
-        <url>http://www.custojusto.pt/setubal/motos/nova-tracer-700-23985763</url>
-        <brand>Nova Tracer 700</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1553847611-yamaha-mt-03-600cc.jpg?rule=play</imageUrl>
         <price units="€">4000</price>
         <url>http://www.custojusto.pt/lisboa/motos/yamaha-mt-03-600cc-23972508</url>
         <brand>Yamaha MT-03 600cc</brand>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1239895502-mt07-abs-55kw.jpg?rule=play</imageUrl>
+        <price units="€">6500</price>
+        <url>http://www.custojusto.pt/setubal/motos/mt07-abs-55kw-23920278</url>
+        <brand>MT07 abs 55kw</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5483903003-yamaha-mt-07-tracer.jpg?rule=play</imageUrl>
@@ -710,28 +695,10 @@
         <brand>Yamaha MT-07 Tracer</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5390385737-yamanha-xsr700.jpg?rule=play</imageUrl>
-        <price units="€">7100</price>
-        <url>http://www.custojusto.pt/lisboa/motos/yamanha-xsr700-24336464</url>
-        <brand>Yamanha XSR700</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5270222073-mt-07-abs-2016.jpg?rule=play</imageUrl>
-        <price units="€">6650</price>
-        <url>http://www.custojusto.pt/setubal/motos/mt-07-abs-2016-24321837</url>
-        <brand>Mt 07 Abs 2016</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4049118597-yamaha-mt-0-tracer-2017.jpg?rule=play</imageUrl>
         <price units="€">8100</price>
         <url>http://www.custojusto.pt/castelo-branco/motos/yamaha-mt-07-tracer-2017-24208766</url>
         <brand>Yamaha MT-07 Tracer 2017</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3614041806-yamaha-tracer-700.jpg?rule=play</imageUrl>
-        <price units="€">7800</price>
-        <url>http://www.custojusto.pt/coimbra/motos/yamaha-tracer-700-24177433</url>
-        <brand>Yamaha Tracer 700</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4537623283-yamaha-mt-07.jpg?rule=play</imageUrl>
@@ -752,6 +719,12 @@
         <brand>Mt-07 2017</brand>
     </advert>
     <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2707166767-yamaha-mt09-tracer-race-blue.jpg?rule=play</imageUrl>
+        <price units="€">9250</price>
+        <url>http://www.custojusto.pt/faro/motos/yamaha-mt09-tracer-race-blue-24087255</url>
+        <brand>Yamaha MT09 Tracer Race Blue</brand>
+    </advert>
+    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5683889457-yamaha-mt-09-a-115cv.jpg?rule=play</imageUrl>
         <price units="€">8450</price>
         <url>http://www.custojusto.pt/porto/motos/yamaha-mt-09-a-115cv-24362132</url>
@@ -762,12 +735,6 @@
         <price units="€">9250</price>
         <url>http://www.custojusto.pt/porto/motos/yamaha-mt-09-2017-24352471</url>
         <brand>yamaha mt-09 2017</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5563466996-yamaha-tracer-900-full-extras.jpg?rule=play</imageUrl>
-        <price units="€">11500</price>
-        <url>http://www.custojusto.pt/faro/motos/yamaha-tracer-900-full-extras-24345407</url>
-        <brand>Yamaha Tracer 900 - FULL extras</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1962564569-yamaha-mt-09-tracer-2017.jpg?rule=play</imageUrl>
