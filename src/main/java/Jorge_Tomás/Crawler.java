@@ -185,8 +185,6 @@ public class Crawler {
                     String detailKey = children.first().text();
                     String detailValue = children.last().text();
 
-                    System.out.println(detailKey + ": "+ detailValue);
-
                     if (detailKey.toLowerCase().contains("anunciante")) {
                         new_advert.setAdvertiser(detailValue);
                     } else if (detailKey.toLowerCase().contains("marca")) {
@@ -235,6 +233,7 @@ public class Crawler {
                 advertisements.getAdvert().add(new_advert);
 
             } catch (IOException e) {
+                System.out.println(advert);
                 System.err.println(e.getMessage());
             }
         });
@@ -245,7 +244,6 @@ public class Crawler {
                 Advertisements.Advert new_advert = new Advertisements.Advert();
                 String advertPrice = new String();
                 String imageUrl = new String();
-
                 Elements advertDetails = document.getElementsByClass("item");
                 advertPrice = document.getElementsByClass("price-label").text();
                 imageUrl = document.getElementsByClass("photo-handler rel inlblk").first().children().first().attr("abs:src");
@@ -255,7 +253,6 @@ public class Crawler {
                     String[] details = children.first().text().split(" ");
                     String detailKey = details[0];
                     String detailValue = details[1];
-                    System.out.println(detailKey + ": "+ detailValue);
 
                     if (detailKey.toLowerCase().contains("anunciante")) {
                         new_advert.setAdvertiser(detailValue);
@@ -299,6 +296,7 @@ public class Crawler {
 
             } catch (IOException e) {
                 System.err.println(e.getMessage());
+                System.out.println(advert);
             }
         });
 
@@ -313,7 +311,6 @@ public class Crawler {
 
                 Elements advertDetails = document.getElementsByClass("list-group-item");
                 advertPrice = document.getElementsByClass("real-price").first().text();
-                System.out.println(advert);
                 try {
                     imageUrl = document.getElementsByClass("img_big active b-greylight").first().children().first().attr("abs:src");
                 } catch (NullPointerException ne) {
@@ -333,6 +330,7 @@ public class Crawler {
 
             } catch (IOException e) {
                 System.err.println(e.getMessage());
+                System.out.println(advert);
             }
         });
     }
