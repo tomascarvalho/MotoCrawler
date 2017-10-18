@@ -207,7 +207,7 @@ public class Crawler {
                         new_advert.setHorsePower(hp);
                     } else if (detailKey.toLowerCase().contains("cilindrada")) {
                         Advertisements.Advert.Displacement displacement = new Advertisements.Advert.Displacement();
-                        displacement.setValue(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
+                        displacement.setValue(Integer.parseInt(detailValue.split("c")[0].replaceAll("[^\\d]", "")));
                         displacement.setUnits("cm3");
                         new_advert.setDisplacement(displacement);
                     } else if (detailKey.toLowerCase().contains("cor")) {
@@ -276,7 +276,7 @@ public class Crawler {
                         new_advert.setHorsePower(hp);
                     } else if (detailKey.toLowerCase().contains("cilindrada")) {
                         Advertisements.Advert.Displacement displacement = new Advertisements.Advert.Displacement();
-                        displacement.setValue(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
+                        displacement.setValue(Integer.parseInt(detailValue.split("c")[0].replaceAll("[^\\d]", "")));
                         displacement.setUnits("cm3");
                         new_advert.setDisplacement(displacement);
                     } else if (detailKey.toLowerCase().contains("cor")) {

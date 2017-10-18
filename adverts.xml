@@ -11,7 +11,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">1900</mileage>
         <horsePower units="cv">15</horsePower>
-        <displacement units="cm3">1253</displacement>
+        <displacement units="cm3">125</displacement>
         <color>Cinzento</color>
         <extras>
             <extra>ABS</extra>
@@ -28,7 +28,7 @@
         <advertiser>Profissional</advertiser>
         <mileage units="km">499</mileage>
         <horsePower units="cv">75</horsePower>
-        <displacement units="cm3">6893</displacement>
+        <displacement units="cm3">689</displacement>
         <color>Branco</color>
         <extras/>
     </advert>
@@ -43,7 +43,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">227</mileage>
         <horsePower units="cv">74</horsePower>
-        <displacement units="cm3">6893</displacement>
+        <displacement units="cm3">689</displacement>
         <color>Preto</color>
         <extras/>
     </advert>
@@ -58,7 +58,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">500</mileage>
         <horsePower units="cv">75</horsePower>
-        <displacement units="cm3">6893</displacement>
+        <displacement units="cm3">689</displacement>
         <color>Azul</color>
         <extras/>
     </advert>
@@ -73,7 +73,7 @@
         <advertiser>Profissional</advertiser>
         <mileage units="km">3600</mileage>
         <horsePower units="cv">75</horsePower>
-        <displacement units="cm3">7003</displacement>
+        <displacement units="cm3">700</displacement>
         <color>Vermelho</color>
         <extras>
             <extra>Computador de bordo</extra>
@@ -108,7 +108,7 @@
         <advertiser>Profissional</advertiser>
         <mileage units="km">8800</mileage>
         <horsePower units="cv">75</horsePower>
-        <displacement units="cm3">7003</displacement>
+        <displacement units="cm3">700</displacement>
         <color>Cinzento</color>
         <extras>
             <extra>Arranque eléctrico</extra>
@@ -127,7 +127,7 @@
         <advertiser>Profissional</advertiser>
         <mileage units="km">10942</mileage>
         <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">8473</displacement>
+        <displacement units="cm3">847</displacement>
         <color>Cinzento</color>
         <extras>
             <extra>Computador de bordo</extra>
@@ -148,7 +148,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">21050</mileage>
         <horsePower units="cv">114</horsePower>
-        <displacement units="cm3">8503</displacement>
+        <displacement units="cm3">850</displacement>
         <color>Cinzento</color>
         <extras>
             <extra>ABS</extra>
@@ -179,7 +179,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">17500</mileage>
         <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">8473</displacement>
+        <displacement units="cm3">847</displacement>
         <color>Cinzento</color>
         <extras/>
     </advert>
@@ -194,7 +194,7 @@
         <advertiser>Profissional</advertiser>
         <mileage units="km">6000</mileage>
         <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">9003</displacement>
+        <displacement units="cm3">900</displacement>
         <color>Outra</color>
         <extras>
             <extra>Computador de bordo</extra>
@@ -229,7 +229,7 @@
         <advertiser>Profissional</advertiser>
         <mileage units="km">27320</mileage>
         <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">8473</displacement>
+        <displacement units="cm3">847</displacement>
         <color>Cinzento</color>
         <extras>
             <extra>ABS</extra>
@@ -246,7 +246,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">19700</mileage>
         <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">8503</displacement>
+        <displacement units="cm3">850</displacement>
         <color>Cinzento</color>
         <extras>
             <extra>ABS</extra>
@@ -271,7 +271,7 @@
         <advertiser>Particular</advertiser>
         <mileage units="km">2174</mileage>
         <horsePower units="cv">160</horsePower>
-        <displacement units="cm3">10003</displacement>
+        <displacement units="cm3">1000</displacement>
         <color>Preto</color>
         <extras/>
     </advert>
@@ -430,7 +430,7 @@
     </advert>
     <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/927921051_3_644x461_yamaha-mt-07-abs-akrapovic-de-2016-yamaha_rev013.jpg</imageUrl>
-        <price units="€">6300</price>
+        <price units="€">6200</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-07-abs-akrapovic-de-2016-IDANhj7.html#52e22980bc</url>
         <model>MT-07</model>
         <month>7</month>
@@ -756,7 +756,7 @@
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4537623283-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">6300</price>
+        <price units="€">6200</price>
         <url>http://www.custojusto.pt/setubal/motos/yamaha-mt-07-24170782</url>
         <brand>Yamaha MT-07</brand>
     </advert>
@@ -771,12 +771,6 @@
         <price units="€">7100</price>
         <url>http://www.custojusto.pt/porto/motos/mt-07-2017-23932744</url>
         <brand>Mt-07 2017</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5163154747-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">6950</price>
-        <url>http://www.custojusto.pt/viseu/motos/yamaha-mt-07-24314898</url>
-        <brand>Yamaha MT 07</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4707281153-mt-07-raceblue.jpg?rule=play</imageUrl>
