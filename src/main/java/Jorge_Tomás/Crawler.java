@@ -309,11 +309,12 @@ public class Crawler {
                 String imageUrl = new String();
                 String advertDescription = document.getElementsByClass("words").first().text();
                 if (advertDescription.toLowerCase().contains("mt07") || advertDescription.toLowerCase().contains("mt-07")
-                        || advertDescription.toLowerCase().contains("mt09") || advertDescription.toLowerCase().contains("mt-09")
-                        || advertDescription.toLowerCase().contains("mt03") || advertDescription.toLowerCase().contains("mt-03")
-                        || advertDescription.toLowerCase().contains("mt01") || advertDescription.toLowerCase().contains("mt-01")
-                        || advertDescription.toLowerCase().contains("mt07") || advertDescription.toLowerCase().contains("mt-07")
-                        || advertDescription.toLowerCase().contains("mt1") || advertDescription.toLowerCase().contains("mt-1")) {
+                        || advertDescription.toLowerCase().contains("mt09") || advertDescription.toLowerCase().contains("mt-09") || advertDescription.toLowerCase().contains("mt 09")
+                        || advertDescription.toLowerCase().contains("mt03") || advertDescription.toLowerCase().contains("mt-03") || advertDescription.toLowerCase().contains("mt 03")
+                        || advertDescription.toLowerCase().contains("mt01") || advertDescription.toLowerCase().contains("mt-01") || advertDescription.toLowerCase().contains("mt 01")
+                        || advertDescription.toLowerCase().contains("mt07") || advertDescription.toLowerCase().contains("mt-07") || advertDescription.toLowerCase().contains("mt 07")
+                        || advertDescription.toLowerCase().contains("mt1") || advertDescription.toLowerCase().contains("mt-1") || advertDescription.toLowerCase().contains("mt 1")
+                        || advertDescription.toLowerCase().contains("xsr")) {
 
                     Elements advertDetails = document.getElementsByClass("list-group-item");
                     advertPrice = document.getElementsByClass("real-price").first().text();
@@ -382,17 +383,23 @@ public class Crawler {
             crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-10/?search%5Bcountry%5D=s");
             crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-10&search%5Bdescription%5D=1");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/mt-01");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt+01");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt01");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/mt-03");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt+03");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt07");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-07");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt+07");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt09");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-09");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt+09");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt03");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-03");
-            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt01");
-            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-01");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt+1");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-1");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-1");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt1");
+            crawler.getWebPagesStandvirtual("http://www.custojusto.pt/portugal/motos/q/tracer");
             crawler.getAdvertLink();
             crawler.getAdvertDetails();
             String xmlString = crawler.marshallList();
