@@ -423,18 +423,6 @@
         <color>cinzento</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928551960_2_644x461_yamaha-mt-07-moto-cage-imagens_rev003.jpg</imageUrl>
-        <price units="€">6000</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-moto-cage-IDAOSzd.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>7</month>
-        <year>2015</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">7500</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>cinzento</color>
-    </advert>
-    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928550753_1_644x461_mt-07-tracer-odivelas_rev001.jpg</imageUrl>
         <price units="€">7300</price>
         <url>https://www.olx.pt/anuncio/mt-07-tracer-IDAOSjz.html#52e22980bc</url>
@@ -808,7 +796,7 @@
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4537623283-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">6200</price>
+        <price units="€">5600</price>
         <url>http://www.custojusto.pt/setubal/motos/yamaha-mt-07-24170782</url>
         <brand>Yamaha MT-07</brand>
     </advert>
