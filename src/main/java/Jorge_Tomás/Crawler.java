@@ -285,7 +285,11 @@ public class Crawler {
 
                 }
                 Advertisements.Advert.Price price = new Advertisements.Advert.Price();
-                price.setValue(Integer.parseInt(advertPrice.replaceAll("[^\\d]", "")));
+                try {
+                    price.setValue(Integer.parseInt(advertPrice.replaceAll("[^\\d]", "")));
+                } catch(NumberFormatException nfe) {
+                    System.out.println(nfe);
+                }
                 price.setUnits("€");
                 new_advert.setImageUrl(imageUrl);
                 new_advert.setPrice(price);
