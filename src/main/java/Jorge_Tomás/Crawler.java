@@ -288,7 +288,7 @@ public class Crawler {
                 try {
                     price.setValue(Integer.parseInt(advertPrice.replaceAll("[^\\d]", "")));
                 } catch(NumberFormatException nfe) {
-                    System.out.println(nfe);
+                    System.out.println(advert);
                 }
                 price.setUnits("€");
                 new_advert.setImageUrl(imageUrl);
