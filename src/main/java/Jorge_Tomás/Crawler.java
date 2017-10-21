@@ -254,33 +254,38 @@ public class Crawler {
                     String detailKey = details[0];
                     String detailValue = details[1];
 
-                    if (detailKey.toLowerCase().contains("anunciante")) {
-                        new_advert.setAdvertiser(detailValue);
-                    } else if (detailKey.toLowerCase().contains("marca")) {
-                        new_advert.setBrand(detailValue);
-                    } else if (detailKey.toLowerCase().contains("modelo")) {
-                        new_advert.setModel(detailValue);
-                    } else if (detailKey.toLowerCase().contains("mês")) {
-                        new_advert.setMonth(detailValue);
-                    } else if (detailKey.toLowerCase().contains("ano")) {
-                        new_advert.setYear(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
-                    } else if (detailKey.toLowerCase().contains("quilómetros")) {
-                        Advertisements.Advert.Mileage mileage = new Advertisements.Advert.Mileage();
-                        mileage.setValue(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
-                        mileage.setUnits("km");
-                        new_advert.setMileage(mileage);
-                    } else if (detailKey.toLowerCase().contains("potência")) {
-                        Advertisements.Advert.HorsePower hp = new Advertisements.Advert.HorsePower();
-                        hp.setValue(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
-                        hp.setUnits("cv");
-                        new_advert.setHorsePower(hp);
-                    } else if (detailKey.toLowerCase().contains("cilindrada")) {
-                        Advertisements.Advert.Displacement displacement = new Advertisements.Advert.Displacement();
-                        displacement.setValue(Integer.parseInt(detailValue.split("c")[0].replaceAll("[^\\d]", "")));
-                        displacement.setUnits("cm3");
-                        new_advert.setDisplacement(displacement);
-                    } else if (detailKey.toLowerCase().contains("cor")) {
-                        new_advert.setColor(detailValue);
+                    try {
+
+                        if (detailKey.toLowerCase().contains("anunciante")) {
+                            new_advert.setAdvertiser(detailValue);
+                        } else if (detailKey.toLowerCase().contains("marca")) {
+                            new_advert.setBrand(detailValue);
+                        } else if (detailKey.toLowerCase().contains("modelo")) {
+                            new_advert.setModel(detailValue);
+                        } else if (detailKey.toLowerCase().contains("mês")) {
+                            new_advert.setMonth(detailValue);
+                        } else if (detailKey.toLowerCase().contains("ano")) {
+                            new_advert.setYear(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
+                        } else if (detailKey.toLowerCase().contains("quilómetros")) {
+                            Advertisements.Advert.Mileage mileage = new Advertisements.Advert.Mileage();
+                            mileage.setValue(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
+                            mileage.setUnits("km");
+                            new_advert.setMileage(mileage);
+                        } else if (detailKey.toLowerCase().contains("potência")) {
+                            Advertisements.Advert.HorsePower hp = new Advertisements.Advert.HorsePower();
+                            hp.setValue(Integer.parseInt(detailValue.replaceAll("[^\\d]", "")));
+                            hp.setUnits("cv");
+                            new_advert.setHorsePower(hp);
+                        } else if (detailKey.toLowerCase().contains("cilindrada")) {
+                            Advertisements.Advert.Displacement displacement = new Advertisements.Advert.Displacement();
+                            displacement.setValue(Integer.parseInt(detailValue.split("c")[0].replaceAll("[^\\d]", "")));
+                            displacement.setUnits("cm3");
+                            new_advert.setDisplacement(displacement);
+                        } else if (detailKey.toLowerCase().contains("cor")) {
+                            new_advert.setColor(detailValue);
+                        }
+                    } catch (NumberFormatException nfe) {
+                        System.out.println(advert + ": " + nfe);
                     }
 
                 }
