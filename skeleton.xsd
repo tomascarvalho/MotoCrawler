@@ -9,7 +9,7 @@
               <xs:element name="price">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:short">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -24,7 +24,7 @@
               <xs:element name="mileage" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:short">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -33,7 +33,7 @@
               <xs:element name="horsePower" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:short">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -42,7 +42,7 @@
               <xs:element name="displacement" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:short">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
