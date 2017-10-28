@@ -363,7 +363,7 @@
     </advert>
     <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/929151588_1_644x461_yamaha-mt09-tracer-race-blue-loul.jpg</imageUrl>
-        <price units="€">9000</price>
+        <price units="€">8900</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt09-tracer-race-blue-IDAQyEE.html#b8fe5fbcc4</url>
         <model>MT-09</model>
         <month>1</month>
@@ -492,17 +492,6 @@
         <color>cinzento</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928071873_1_644x461_yamaha-mt-09-abs-covilh_rev001.jpg</imageUrl>
-        <price units="€">8150</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-abs-IDANE5N.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <year>2014</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">12863</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>laranja</color>
-    </advert>
-    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928124091_1_644x461_yamaha-mt10-11-2016-c-nova-povoa-de-varzim.jpg</imageUrl>
         <price units="€">0</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt10-11-2016-c-nova-IDANMVc.html#6cf95dae51</url>
@@ -515,9 +504,9 @@
         <color>cinzento</color>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6667810521-yamaha-mt-07-2016-c-garantia-3-700km.jpg?rule=play</imageUrl>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6708085378-yamaha-mt-07-2016-c-garantia-3-700km.jpg?rule=play</imageUrl>
         <price units="€">5750</price>
-        <url>http://www.custojusto.pt/leiria/motos/yamaha-mt-07-2016-c-garantia-3-700km-24457035</url>
+        <url>http://www.custojusto.pt/leiria/motos/yamaha-mt-07-2016-c-garantia-3-700km-24463414</url>
         <brand>Yamaha MT 07 (2016) C/ Garantia 3.700Km</brand>
     </advert>
     <advert>
@@ -579,6 +568,12 @@
         <price units="€">7300</price>
         <url>http://www.custojusto.pt/lisboa/motos/yamaha-mt01-24108875</url>
         <brand>Yamaha mt01</brand>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6710254871-yamaha-mt-07.jpg?rule=play</imageUrl>
+        <price units="€">7200</price>
+        <url>http://www.custojusto.pt/porto/motos/yamaha-mt-07-24465669</url>
+        <brand>Yamaha MT 07</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6108357904-yamaha-mt03-impecavel-1-800km.jpg?rule=play</imageUrl>
