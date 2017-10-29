@@ -504,6 +504,12 @@
         <color>cinzento</color>
     </advert>
     <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6802156342-yamaha-mt-01-2005.jpg?rule=play</imageUrl>
+        <price units="€">7500</price>
+        <url>http://www.custojusto.pt/coimbra/motos/yamaha-mt-01-2005-24471307</url>
+        <brand>yamaha mt-01 2005</brand>
+    </advert>
+    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6708085378-yamaha-mt-07-2016-c-garantia-3-700km.jpg?rule=play</imageUrl>
         <price units="€">5750</price>
         <url>http://www.custojusto.pt/leiria/motos/yamaha-mt-07-2016-c-garantia-3-700km-24463414</url>
@@ -571,7 +577,7 @@
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6710254871-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">7200</price>
+        <price units="€">7000</price>
         <url>http://www.custojusto.pt/porto/motos/yamaha-mt-07-24465669</url>
         <brand>Yamaha MT 07</brand>
     </advert>
