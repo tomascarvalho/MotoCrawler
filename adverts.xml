@@ -1,123 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <advertisements>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/55474960_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">12400</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-01-mt-10-2017-quick-shift-ID8JC2ID.html#0967e2021c</url>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/62198127_1_148x110.jpg</imageUrl>
+        <price units="€">7990</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-tracer-abs-ID8JYJ3X.html#075b246469</url>
         <brand>Yamaha</brand>
-        <model>MT-01</model>
-        <month>Junho</month>
+        <model>MT-07</model>
+        <month>Outubro</month>
         <year>2017</year>
         <advertiser>Profissional</advertiser>
-        <mileage units="km">1217</mileage>
-        <horsePower units="cv">160</horsePower>
-        <displacement units="cm3">1000</displacement>
-        <color>Cinzento</color>
-        <extras/>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/60482890_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">5900</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-yamaha-mt-07-ID8JT85r.html#075b246469</url>
-        <brand>Yamaha</brand>
-        <model>MT-07</model>
-        <month>Janeiro</month>
-        <year>1970</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">17790</mileage>
-        <horsePower units="cv">75</horsePower>
-        <displacement units="cm3">700</displacement>
-        <color>Preto</color>
-        <extras>
-            <extra>Computador de bordo</extra>
-            <extra>Naked</extra>
-            <extra>Arranque eléctrico</extra>
-            <extra>Indicador de mudança engrenada</extra>
-            <extra>Travão de disco</extra>
-            <extra>Proteção do motor</extra>
-        </extras>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/55476200_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">6300</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-abs-55kw-full-power-ID8JC2MP.html#075b246469</url>
-        <brand>Yamaha</brand>
-        <model>MT-07</model>
-        <month>Novembro</month>
-        <year>2015</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">8063</mileage>
-        <horsePower units="cv">75</horsePower>
-        <displacement units="cm3">700</displacement>
-        <color>Roxo</color>
-        <extras/>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/60108450_1_148x110_rev002.jpg</imageUrl>
-        <price units="€">5500</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-ID8JRX5o.html#075b246469</url>
-        <brand>Yamaha</brand>
-        <model>MT-07</model>
-        <month>Fevereiro</month>
-        <year>2015</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">22000</mileage>
-        <displacement units="cm3">689</displacement>
-        <color>Cinzento</color>
-        <extras/>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/53079965_1_148x110_rev002.jpg</imageUrl>
-        <price units="€">6400</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-abs-ID8Jvrb8.html#075b246469</url>
-        <brand>Yamaha</brand>
-        <model>MT-07</model>
-        <month>Setembro</month>
-        <year>2017</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">2000</mileage>
-        <horsePower units="cv">75</horsePower>
+        <mileage units="km">1100</mileage>
+        <horsePower units="cv">78</horsePower>
         <displacement units="cm3">689</displacement>
         <color>Azul</color>
-        <extras>
-            <extra>ABS</extra>
-            <extra>Arranque eléctrico</extra>
-            <extra>Computador de bordo</extra>
-        </extras>
+        <extras/>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/59457425_1_148x110_rev001.jpg</imageUrl>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/62190234_1_148x110_rev001.jpg</imageUrl>
+        <price units="€">7800</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-tracer-700-ID8JLNPk.html#075b246469</url>
+        <brand>Yamaha</brand>
+        <model>MT-07</model>
+        <month>Julho</month>
+        <year>2017</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">2700</mileage>
+        <displacement units="cm3">700</displacement>
+        <color>Azul</color>
+        <extras/>
+    </advert>
+    <advert>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/62047431_1_148x110_rev001.jpg</imageUrl>
         <price units="€">7600</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-tracer-abs-ID8JPtVN.html#075b246469</url>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-tracer-700-abs-ID8JYg1k.html#075b246469</url>
         <brand>Yamaha</brand>
         <model>MT-07</model>
         <month>Outubro</month>
         <year>2016</year>
         <advertiser>Profissional</advertiser>
         <mileage units="km">12000</mileage>
-        <color>Preto</color>
+        <displacement units="cm3">700</displacement>
+        <color>Cinzento</color>
         <extras/>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/59281645_2_148x110.jpg</imageUrl>
-        <price units="€">6750</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-abs-ID8JOPak.html#075b246469</url>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/61602543_1_148x110.jpg</imageUrl>
+        <price units="€">5950</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-abs-raceblue-ID8JV7dM.html#075b246469</url>
         <brand>Yamaha</brand>
         <model>MT-07</model>
-        <month>Dezembro</month>
-        <year>2017</year>
+        <month>Julho</month>
+        <year>2015</year>
         <advertiser>Profissional</advertiser>
-        <mileage units="km">400</mileage>
-        <horsePower units="cv">78</horsePower>
+        <mileage units="km">13971</mileage>
+        <horsePower units="cv">75</horsePower>
         <displacement units="cm3">689</displacement>
-        <color>Branco</color>
+        <color>Azul</color>
         <extras>
             <extra>ABS</extra>
+            <extra>Indicador de mudança engrenada</extra>
+            <extra>Vidro sobrelvado</extra>
+            <extra>Arranque eléctrico</extra>
+            <extra>Naked</extra>
+            <extra>Computador de bordo</extra>
+            <extra>Travão de disco</extra>
         </extras>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/56001285_1_148x110.jpg</imageUrl>
-        <price units="€">7750</price>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/56001285_14_148x110.jpg</imageUrl>
+        <price units="€">7700</price>
         <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-tracer-ID8JDIzb.html#075b246469</url>
         <brand>Yamaha</brand>
         <model>MT-07</model>
@@ -142,46 +93,77 @@
         </extras>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/58482115_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">7800</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-07-tracer-700-ID8JLNPk.html#075b246469</url>
-        <brand>Yamaha</brand>
-        <model>MT-07</model>
-        <month>Julho</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">2700</mileage>
-        <displacement units="cm3">700</displacement>
-        <color>Azul</color>
-        <extras/>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/60482900_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">8250</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-yamaha-mt-09-ID8JA2CG.html#966bff43e8</url>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/61168521_1_148x110.jpg</imageUrl>
+        <price units="€">9750</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-ID8JWMtp.html#966bff43e8</url>
         <brand>Yamaha</brand>
         <model>MT-09</model>
         <month>Março</month>
+        <year>430100</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">5600</mileage>
+        <horsePower units="cv">115</horsePower>
+        <displacement units="cm3">900</displacement>
+        <color>Preto</color>
+        <extras>
+            <extra>ABS</extra>
+            <extra>Descanso central</extra>
+            <extra>Proteção de punhos</extra>
+            <extra>Travão de disco</extra>
+            <extra>Computador de bordo</extra>
+            <extra>Faróis LED</extra>
+            <extra>Proteção do motor</extra>
+            <extra>Controlo tração</extra>
+            <extra>Indicador de mudança engrenada</extra>
+            <extra>Suporte malas</extra>
+        </extras>
+    </advert>
+    <advert>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/62047008_1_148x110_rev001.jpg</imageUrl>
+        <price units="€">8900</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-sport-tracker-abs-ID8JYfV3.html#966bff43e8</url>
+        <brand>Yamaha</brand>
+        <model>MT-09</model>
+        <month>Setembro</month>
         <year>2016</year>
         <advertiser>Profissional</advertiser>
-        <mileage units="km">12700</mileage>
-        <horsePower units="cv">115</horsePower>
+        <mileage units="km">6000</mileage>
         <displacement units="cm3">900</displacement>
-        <color>Vermelho</color>
+        <color>Cinzento</color>
         <extras/>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/57742975_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">9700</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-900-2017-ID8JJkCH.html#966bff43e8</url>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/61990170_1_148x110_rev001.jpg</imageUrl>
+        <price units="€">9250</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-ID8JYaTR.html#966bff43e8</url>
         <brand>Yamaha</brand>
         <model>MT-09</model>
-        <month>Março</month>
+        <month>Novembro</month>
+        <year>2015</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">23259</mileage>
+        <displacement units="cm3">900</displacement>
+        <color>Cinzento</color>
+        <extras>
+            <extra>Computador de bordo</extra>
+            <extra>Malas</extra>
+            <extra>ABS</extra>
+            <extra>Carenagens</extra>
+            <extra>Suporte malas</extra>
+        </extras>
+    </advert>
+    <advert>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/61621515_1_148x110_rev001.jpg</imageUrl>
+        <price units="€">9750</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-abs-ID8JOmGc.html#966bff43e8</url>
+        <brand>Yamaha</brand>
+        <model>MT-09</model>
+        <month>Junho</month>
         <year>2017</year>
         <advertiser>Profissional</advertiser>
-        <mileage units="km">8539</mileage>
+        <mileage units="km">8042</mileage>
         <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">900</displacement>
+        <displacement units="cm3">847</displacement>
         <color>Preto</color>
         <extras/>
     </advert>
@@ -207,84 +189,6 @@
         </extras>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/59458775_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">8900</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-sport-tracker-abs-ID8JPubS.html#966bff43e8</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Julho</month>
-        <year>2006</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">6000</mileage>
-        <color>Cinzento</color>
-        <extras>
-            <extra>Computador de bordo</extra>
-            <extra>ABS</extra>
-        </extras>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/59411135_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">9750</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-abs-ID8JOmGc.html#966bff43e8</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Junho</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">8042</mileage>
-        <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">847</displacement>
-        <color>Preto</color>
-        <extras/>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/55526185_1_148x110_rev002.jpg</imageUrl>
-        <price units="€">9990</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-ID8JCg19.html#966bff43e8</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Maio</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">5600</mileage>
-        <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">850</displacement>
-        <color>Preto</color>
-        <extras>
-            <extra>ABS</extra>
-            <extra>Computador de bordo</extra>
-            <extra>Indicador de pressão dos pneus</extra>
-            <extra>Proteção do motor</extra>
-            <extra>Topcase</extra>
-            <extra>Apoio lombar pendura</extra>
-            <extra>Faróis LED</extra>
-            <extra>Malas</extra>
-            <extra>Semi-carenada</extra>
-            <extra>Travão de disco</extra>
-            <extra>Carenagens</extra>
-            <extra>Indicador de mudança engrenada</extra>
-            <extra>Proteção de punhos</extra>
-            <extra>Suporte malas</extra>
-            <extra>Vidro sobrelvado</extra>
-        </extras>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/48814902_1_148x110_rev006.jpg</imageUrl>
-        <price units="€">7600</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-race-blue-abs-ID8JuGka.html#966bff43e8</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Outubro</month>
-        <year>2014</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">26200</mileage>
-        <extras>
-            <extra>ABS</extra>
-            <extra>Naked</extra>
-            <extra>Proteção do motor</extra>
-        </extras>
-    </advert>
-    <advert>
         <imageUrl>https://carspt-images.akamaized.net/images_carspt/56542675_10_148x110_rev002.jpg</imageUrl>
         <price units="€">9950</price>
         <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-ID8JFrOM.html#966bff43e8</url>
@@ -300,31 +204,8 @@
         <extras/>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/930278428_1_644x461_yamaha-mt-01-mt-10-2017-quick-shift-guimares_rev037.jpg</imageUrl>
-        <price units="€">12400</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-01-mt-10-2017-quick-shift-IDATe8z.html#388cbacb1c</url>
-        <model>MT-01</model>
-        <month>6</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">1217</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>cinzento</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928652616_1_644x461_yamaha-mt-03-600cc-lisboa.jpg</imageUrl>
-        <price units="€">3950</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-03-600cc-IDAPafu.html#57fdd2c6c9</url>
-        <model>MT-03</model>
-        <year>2007</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">25000</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>branco</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931536991_1_644x461_yamaha-mt-03-2016-mafra_rev008.jpg</imageUrl>
-        <price units="€">5200</price>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931536991_1_644x461_yamaha-mt-03-2016-mafra_rev024.jpg</imageUrl>
+        <price units="€">5000</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-03-2016-IDAX3L9.html#57fdd2c6c9</url>
         <model>MT-03</model>
         <month>8</month>
@@ -335,27 +216,190 @@
         <color>preto</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/930053355_1_644x461_yamaha-mt-03-660-de-2009-com-2800-kms-sesimbra.jpg</imageUrl>
-        <price units="€">4250</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-03-660-de-2009-com-2800-kms-IDASCiz.html#57fdd2c6c9</url>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928652616_1_644x461_yamaha-mt-03-600cc-lisboa.jpg</imageUrl>
+        <price units="€">3600</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-03-600cc-IDAPafu.html#57fdd2c6c9</url>
         <model>MT-03</model>
-        <month>8</month>
-        <year>2009</year>
+        <year>2007</year>
         <advertiser>Particular</advertiser>
-        <mileage units="km">2800</mileage>
+        <mileage units="km">25000</mileage>
         <displacement units="cm3">501</displacement>
         <color>branco</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/930279145_1_644x461_yamaha-mt-07-abs-55kw-full-power-guimares_rev027.jpg</imageUrl>
-        <price units="€">6300</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-abs-55kw-full-power-IDATefq.html#52e22980bc</url>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933309314_1_644x461_yamaha-mt-07-tracer-abs-aveiro.jpg</imageUrl>
+        <price units="€">7990</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-abs-IDB2yOg.html#52e22980bc</url>
         <model>MT-07</model>
-        <month>11</month>
+        <month>10</month>
+        <year>2017</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">1100</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>azul</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931748323_1_644x461_yamaha-mt-07-tracer-700-loures_rev002.jpg</imageUrl>
+        <price units="€">7800</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-700-IDAXH3g.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>7</month>
+        <year>2017</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">2700</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>azul</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933259368_1_644x461_vendo-yamaha-mt-07-tracer-setbal.jpg</imageUrl>
+        <price units="€">8250</price>
+        <url>https://www.olx.pt/anuncio/vendo-yamaha-mt-07-tracer-IDB2pqN.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>5</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">8247</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>preto</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931568405_1_644x461_vendo-mt-07-vagos_rev008.jpg</imageUrl>
+        <price units="€">5200</price>
+        <url>https://www.olx.pt/anuncio/vendo-mt-07-IDAX9LK.html#52e22980bc</url>
+        <model>MT-07</model>
+        <year>2015</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">7660</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933199658_1_644x461_yamaha-mt-07-tracer-700-abs-cascais.jpg</imageUrl>
+        <price units="€">7600</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-700-abs-IDB2efC.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>10</month>
+        <year>2016</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">12000</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/930839351_1_644x461_yamaha-mt-07-almada.jpg</imageUrl>
+        <price units="€">5000</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAUP7n.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>7</month>
+        <year>2014</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">7900</mileage>
+        <displacement units="cm3">501</displacement>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933095082_1_644x461_tracer-700-santo-tirso.jpg</imageUrl>
+        <price units="€">8000</price>
+        <url>https://www.olx.pt/anuncio/tracer-700-IDB1V5s.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>12</month>
+        <year>2016</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">6200</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>preto</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931580608_6_644x461_yamaha-mt-07-com-alforges-.jpg</imageUrl>
+        <price units="€">5450</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-com-alforges-IDAXbGO.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>10</month>
+        <year>2014</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">17300</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932902375_1_644x461_yamaha-oliveira-de-azemis.jpg</imageUrl>
+        <price units="€">6500</price>
+        <url>https://www.olx.pt/anuncio/yamaha-IDB1j6d.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>7</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">500</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>azul</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/925282292_1_644x461_yamaha-mt-07-bragana.jpg</imageUrl>
+        <price units="€">6500</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAGXyv.html#52e22980bc</url>
+        <model>MT-07</model>
+        <year>2015</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">6800</mileage>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932689949_3_644x461_yamaha-mt07-55kw-abs-2017-yamaha.jpg</imageUrl>
+        <price units="€">7300</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt07-55kw-abs-2017-IDB0OBE.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>5</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">6000</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>branco</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932914699_1_644x461_yamaha-mt-07-abs-raceblue-vila-nova-de-gaia_rev025.jpg</imageUrl>
+        <price units="€">5950</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-abs-raceblue-IDB0Nha.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>7</month>
         <year>2015</year>
         <advertiser>Profissional</advertiser>
-        <mileage units="km">8063</mileage>
+        <mileage units="km">13971</mileage>
         <displacement units="cm3">501</displacement>
+        <color>azul</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931033760_1_644x461_yamaha-mt-07-como-nova-caldas-da-rainha_rev004.jpg</imageUrl>
+        <price units="€">5000</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-como-nova-IDAWsmb.html#52e22980bc</url>
+        <model>MT-07</model>
+        <year>2015</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">8470</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>branco</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931041551_1_644x461_yamaha-mt-07-tracer-viseu_rev054.jpg</imageUrl>
+        <price units="€">7700</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-IDAWtCE.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>4</month>
+        <year>2017</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">10500</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>preto</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932442411_1_644x461_yamaha-mt-07-abs-aveiro.jpg</imageUrl>
+        <price units="€">6300</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-07-abs-IDB00mS.html#52e22980bc</url>
+        <model>MT-07</model>
+        <month>3</month>
+        <year>2016</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">17400</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
     </advert>
     <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/927548019_5_644x461_yamaha-mt-07-abs-2017-troco-leiria_rev004.jpg</imageUrl>
@@ -382,32 +426,8 @@
         <color>preto</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932270728_1_644x461_yamaha-mt-07-gondomar_rev023.jpg</imageUrl>
-        <price units="€">5500</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAZsKn.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>2</month>
-        <year>2015</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">22000</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>cinzento</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928383169_1_644x461_yamaha-mt-07-abs-lisboa_rev121.jpg</imageUrl>
-        <price units="€">6400</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-abs-IDAOs3w.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>9</month>
-        <year>2017</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">2000</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>azul</color>
-    </advert>
-    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932088267_1_644x461_yamaha-mt-07-barcelos.jpg</imageUrl>
-        <price units="€">5400</price>
+        <price units="€">5200</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAYOM7.html#52e22980bc</url>
         <model>MT-07</model>
         <year>2014</year>
@@ -429,17 +449,6 @@
         <color>cinzento</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932079876_1_644x461_yamaha-mt-07-tracer-abs-cascais.jpg</imageUrl>
-        <price units="€">7600</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-abs-IDAYMYE.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>10</month>
-        <year>2016</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">12000</mileage>
-        <color>preto</color>
-    </advert>
-    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932067158_1_644x461_tracer-700-santo-tirso_rev002.jpg</imageUrl>
         <price units="€">8500</price>
         <url>https://www.olx.pt/anuncio/tracer-700-IDAYKGQ.html#52e22980bc</url>
@@ -452,89 +461,19 @@
         <color>branco</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931041551_1_644x461_yamaha-mt-07-tracer-viseu_rev040.jpg</imageUrl>
-        <price units="€">7750</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-IDAWtCE.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>4</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">10500</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>preto</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931833880_1_644x461_yamaha-mt-07-55kw-lisboa_rev001.jpg</imageUrl>
-        <price units="€">6200</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-55kw-IDAXZIu.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>10</month>
-        <year>2014</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">7800</mileage>
-        <displacement units="cm3">501</displacement>
-    </advert>
-    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931825095_1_644x461_yamaha-mt-07-blue-racer-2016-almada.jpg</imageUrl>
-        <price units="€">6950</price>
+        <price units="€">6850</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-07-blue-racer-2016-IDAXXLG.html#52e22980bc</url>
         <model>MT-07</model>
         <month>4</month>
         <year>2015</year>
         <advertiser>Particular</advertiser>
-        <mileage units="km">16500</mileage>
+        <mileage units="km">18500</mileage>
         <displacement units="cm3">501</displacement>
         <color>outra</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931748323_1_644x461_yamaha-mt-07-tracer-700-loures.jpg</imageUrl>
-        <price units="€">7800</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-tracer-700-IDAXH3g.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>7</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">2700</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>azul</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931580608_1_644x461_yamaha-mt-07-marinha-grande.jpg</imageUrl>
-        <price units="€">5490</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-IDAXbGO.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>10</month>
-        <year>2014</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">17300</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>cinzento</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931568405_1_644x461_vendo-mt-07-vagos_rev008.jpg</imageUrl>
-        <price units="€">5400</price>
-        <url>https://www.olx.pt/anuncio/vendo-mt-07-IDAX9LK.html#52e22980bc</url>
-        <model>MT-07</model>
-        <year>2015</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">7660</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>cinzento</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931077620_1_644x461_yamaha-mt-07-abs-valongo.jpg</imageUrl>
-        <price units="€">5900</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-07-abs-IDAWAyB.html#52e22980bc</url>
-        <model>MT-07</model>
-        <month>7</month>
-        <year>2015</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">13402</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>branco</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932147013_4_644x461_vendo-yamaha-mt-09-carros-motos-e-barcos.jpg</imageUrl>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932147013_4_644x461_vendo-yamaha-mt-09-carros-motos-e-barcos_rev003.jpg</imageUrl>
         <price units="€">8150</price>
         <url>https://www.olx.pt/anuncio/vendo-yamaha-mt-09-IDAZ16l.html#b8fe5fbcc4;promoted</url>
         <model>MT-09</model>
@@ -544,28 +483,6 @@
         <mileage units="km">879</mileage>
         <displacement units="cm3">501</displacement>
         <color>preto</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932390503_1_644x461_tracer-09-faro_rev002.jpg</imageUrl>
-        <price units="€">10000</price>
-        <url>https://www.olx.pt/anuncio/tracer-09-IDAZQ5Y.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>8</month>
-        <year>2017</year>
-        <advertiser>Particular</advertiser>
-        <displacement units="cm3">501</displacement>
-        <color>outra</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/923553373_1_644x461_mt09-tracer-yamaha-2017-oeiras.jpg</imageUrl>
-        <price units="€">9200</price>
-        <url>https://www.olx.pt/anuncio/mt09-tracer-yamaha-2017-IDACARK.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>2</month>
-        <year>2017</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">8200</mileage>
-        <displacement units="cm3">501</displacement>
     </advert>
     <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932180774_1_644x461_yamaha-mt-09-albufeira.jpg</imageUrl>
@@ -580,31 +497,91 @@
         <color>azul</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928780139_1_644x461_yamaha-mt-09-2017-porto.jpg</imageUrl>
-        <price units="€">9000</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-2017-IDAPxn9.html#b8fe5fbcc4</url>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933265889_1_644x461_yamaha-mt-09-tracer-alenquer.jpg</imageUrl>
+        <price units="€">8850</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-IDB2qwP.html#b8fe5fbcc4</url>
         <model>MT-09</model>
-        <month>5</month>
-        <year>2017</year>
+        <month>8</month>
+        <year>2016</year>
         <advertiser>Particular</advertiser>
-        <mileage units="km">1800</mileage>
+        <mileage units="km">9100</mileage>
         <displacement units="cm3">501</displacement>
-        <color>preto</color>
+        <color>outra</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931427969_1_644x461_yamaha-mt-09-tracer-900-2017-guimares_rev022.jpg</imageUrl>
-        <price units="€">9700</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-900-2017-IDAVHMC.html#b8fe5fbcc4</url>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932623420_1_644x461_yamaha-mt-09-tracer-palmela_rev010.jpg</imageUrl>
+        <price units="€">9750</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-IDB0Cfz.html#b8fe5fbcc4</url>
         <model>MT-09</model>
         <month>3</month>
         <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">8539</mileage>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">5600</mileage>
         <displacement units="cm3">501</displacement>
         <color>preto</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/919216103_1_644x461_yamaha-mt-09-mt-09-almada_rev121.jpg</imageUrl>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933199328_1_644x461_yamaha-mt-09-sport-tracker-abs-cascais.jpg</imageUrl>
+        <price units="€">8900</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-sport-tracker-abs-IDB2ebk.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>9</month>
+        <year>2016</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">6000</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933169967_1_644x461_yamaha-mt-09-pombal.jpg</imageUrl>
+        <price units="€">9250</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-IDB2aGv.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>11</month>
+        <year>2015</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">23259</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/933030834_6_644x461_yamaha-mt-09-2015-abs-_rev001.jpg</imageUrl>
+        <price units="€">7000</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-2015-abs-IDB1Jf4.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>1</month>
+        <year>2015</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">23531</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/926310223_4_644x461_yamaha-mt-09-c-garantia-carros-motos-e-barcos_rev027.jpg</imageUrl>
+        <price units="€">8500</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-c-garantia-IDAJssX.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>8</month>
+        <year>2016</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">14700</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931980133_1_644x461_yamaha-mt-09-tracer-abs-seixal_rev012.jpg</imageUrl>
+        <price units="€">9750</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-abs-IDAYu35.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>6</month>
+        <year>2017</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">8042</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>preto</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/919216103_1_644x461_yamaha-mt-09-mt-09-almada_rev129.jpg</imageUrl>
         <price units="€">8250</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-09-mt-09-IDAsq4r.html#b8fe5fbcc4</url>
         <model>MT-09</model>
@@ -614,6 +591,63 @@
         <mileage units="km">10942</mileage>
         <displacement units="cm3">501</displacement>
         <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932622670_1_644x461_yamaha-mt-tracer-900-marco-2017-palmela_rev002.jpg</imageUrl>
+        <price units="€">9750</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-tracer-900-marco-2017-IDB0C7N.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>3</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">5600</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>preto</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/929633689_3_644x461_yamaha-mt09-17-mil-klms-impecavel-yamaha_rev013.jpg</imageUrl>
+        <price units="€">6500</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt09-17-mil-klms-impecavel-IDARImE.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>9</month>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">18000</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>laranja</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932390503_1_644x461_tracer-09-faro_rev002.jpg</imageUrl>
+        <price units="€">10000</price>
+        <url>https://www.olx.pt/anuncio/tracer-09-IDAZQ5Y.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>8</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <displacement units="cm3">501</displacement>
+        <color>outra</color>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/923553373_1_644x461_mt-09-tracer-yamaha-2017-oeiras.jpg</imageUrl>
+        <price units="€">8950</price>
+        <url>https://www.olx.pt/anuncio/mt-09-tracer-yamaha-2017-IDACARK.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>2</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">8800</mileage>
+        <displacement units="cm3">501</displacement>
+    </advert>
+    <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928780139_1_644x461_yamaha-mt-09-2017-porto.jpg</imageUrl>
+        <price units="€">8750</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-2017-IDAPxn9.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>5</month>
+        <year>2017</year>
+        <advertiser>Particular</advertiser>
+        <mileage units="km">1800</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>preto</color>
     </advert>
     <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928695241_1_644x461_mt-09-abs-full-extras-lisboa.jpg</imageUrl>
@@ -628,30 +662,6 @@
         <color>cinzento</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931980133_1_644x461_yamaha-mt-09-tracer-abs-seixal_rev004.jpg</imageUrl>
-        <price units="€">9750</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-abs-IDAYu35.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>6</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">8042</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>preto</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/930360749_1_644x461_yamaha-mt-09-tracer-albufeira_rev016.jpg</imageUrl>
-        <price units="€">9990</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-IDATstD.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>5</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">5600</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>preto</color>
-    </advert>
-    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/931994580_1_644x461_yamaha-mt09-tracer-setbal.jpg</imageUrl>
         <price units="€">8500</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt09-tracer-IDAYgLM.html#b8fe5fbcc4</url>
@@ -664,31 +674,9 @@
         <color>cinzento</color>
     </advert>
     <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/927797073_1_644x461_yamaha-mt-09-race-blue-abs-lisboa_rev056.jpg</imageUrl>
-        <price units="€">7600</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-race-blue-abs-IDAN131.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>10</month>
-        <year>2014</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">26200</mileage>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/926310223_6_644x461_yamaha-mt-09-c-garantia-_rev024.jpg</imageUrl>
-        <price units="€">8500</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-c-garantia-IDAJssX.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>8</month>
-        <year>2016</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">14700</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>cinzento</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928124091_1_644x461_yamaha-mt-10-11-2016-c-nova-povoa-de-varzim.jpg</imageUrl>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/928124091_1_644x461_yamaha-mt-10-c-nova-povoa-de-varzim.jpg</imageUrl>
         <price units="€">11499</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-10-11-2016-c-nova-IDANMVc.html#6cf95dae51</url>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-10-c-nova-IDANMVc.html#6cf95dae51</url>
         <model>MT-10</model>
         <month>11</month>
         <year>2016</year>
@@ -696,6 +684,18 @@
         <mileage units="km">11000</mileage>
         <displacement units="cm3">501</displacement>
         <color>cinzento</color>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3964962239-mt-07-race-blue.jpg?rule=play</imageUrl>
+        <price units="€">6450</price>
+        <url>https://www.custojusto.pt/porto/motos/mt-07-race-blue-25090182</url>
+        <brand>MT 07 Race blue</brand>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3962526716-yamaha-mt-01.jpg?rule=play</imageUrl>
+        <price units="€">7500</price>
+        <url>https://www.custojusto.pt/coimbra/motos/yamaha-mt-01-25088942</url>
+        <brand>yamaha mt-01</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1102184120-yamaha-mt01.jpg?rule=play</imageUrl>
@@ -710,12 +710,6 @@
         <brand>Yamaha MT 07</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4930415465-yamaha-mt-09.jpg?rule=play</imageUrl>
-        <price units="€">7500</price>
-        <url>https://www.custojusto.pt/acores/motos/yamaha-mt-09-24296570</url>
-        <brand>Yamaha MT-09</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4046913000-mt-07-2016.jpg?rule=play</imageUrl>
         <price units="€">7000</price>
         <url>https://www.custojusto.pt/lisboa/motos/mt-07-2016-24211207</url>
@@ -728,10 +722,16 @@
         <brand>Yamaha Mt 09 com garantia</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1977916118-yamaha-mt09-tracer.jpg?rule=play</imageUrl>
-        <price units="€">8400</price>
-        <url>https://www.custojusto.pt/setubal/motos/yamaha-mt09-tracer-24612389</url>
-        <brand>Yamaha mt09 tracer</brand>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4239359121-yamaha-mt-07.jpg?rule=play</imageUrl>
+        <price units="€">5200</price>
+        <url>https://www.custojusto.pt/braga/motos/yamaha-mt-07-25121498</url>
+        <brand>Yamaha MT 07</brand>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1553847611-yamaha-mt-03-600cc.jpg?rule=play</imageUrl>
+        <price units="€">3900</price>
+        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-03-600cc-23972508</url>
+        <brand>Yamaha MT-03 600cc</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2107492953-yamaha-mt-07.jpg?rule=play</imageUrl>
@@ -746,10 +746,10 @@
         <brand>Yamaha Mt 07 blue racer</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1569814707-yamaha-mt-03-660-de-2009-com-2800kms.jpg?rule=play</imageUrl>
-        <price units="€">4250</price>
-        <url>https://www.custojusto.pt/setubal/motos/yamaha-mt-03-660-de-2009-com-2800kms-24909123</url>
-        <brand>Yamaha MT-03 660, de 2009 com 2800Kms</brand>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5558614462-yamaha-mt-09-2017.jpg?rule=play</imageUrl>
+        <price units="€">8750</price>
+        <url>https://www.custojusto.pt/porto/motos/yamaha-mt-09-2017-24352471</url>
+        <brand>yamaha mt-09 2017</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/8404696197-yamaha-mt07-race-blue-mt-07.jpg?rule=play</imageUrl>
@@ -758,52 +758,34 @@
         <brand>Yamaha MT07 race blue MT 07</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/8076474398-yamaha-mt07-35kw-livrete.jpg?rule=play</imageUrl>
-        <price units="€">6150</price>
-        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt07-35kwlivrete-24587647</url>
-        <brand>Yamaha MT07 35KW(livrete)</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/7659428004-yamaha-mt-03.jpg?rule=play</imageUrl>
-        <price units="€">3800</price>
-        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-03-24542880</url>
-        <brand>Yamaha MT 03</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1553847611-yamaha-mt-03-600cc.jpg?rule=play</imageUrl>
-        <price units="€">4000</price>
-        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-03-600cc-23972508</url>
-        <brand>Yamaha MT-03 600cc</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2674223390-yamaha-mt07-tracer.jpg?rule=play</imageUrl>
-        <price units="€">7750</price>
-        <url>https://www.custojusto.pt/viseu/motos/yamaha-mt07-tracer-24982723</url>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4197268456-yamaha-mt07-tracer.jpg?rule=play</imageUrl>
+        <price units="€">7700</price>
+        <url>https://www.custojusto.pt/viseu/motos/yamaha-mt07-tracer-25110836</url>
         <brand>Yamaha MT07 Tracer</brand>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3572487638-yamaha-mt07-55kw-abs-2017.jpg?rule=play</imageUrl>
+        <price units="€">7300</price>
+        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt07-55kw-abs-2017-25050786</url>
+        <brand>Yamaha MT07 55kw ABS 2017</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2458512112-mt-07-35kw.jpg?rule=play</imageUrl>
         <price units="€">7000</price>
-        <url>https://www.custojusto.pt/leiria/motos/mt-07-35kw-24976775</url>
-        <brand>Mt 07 35kw</brand>
+        <url>https://www.custojusto.pt/leiria/motos/mt-07-35kw-a2-24976775</url>
+        <brand>Mt 07 35kw A2</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/9955409547-yamaha-mt07.jpg?rule=play</imageUrl>
-        <price units="€">5000</price>
-        <url>https://www.custojusto.pt/setubal/motos/yamaha-mt07-24765431</url>
-        <brand>Yamaha MT07</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/7252655762-yamaha-xsr-700-35kw-2017.jpg?rule=play</imageUrl>
-        <price units="€">8300</price>
-        <url>https://www.custojusto.pt/setubal/motos/yamaha-xsr-700-35kw-2017-24505144</url>
-        <brand>Yamaha XSR 700 35kw 2017</brand>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2916538771-yamaha-mt-07.jpg?rule=play</imageUrl>
+        <price units="€">5500</price>
+        <url>https://www.custojusto.pt/porto/motos/yamaha-mt-07-25007544</url>
+        <brand>Yamaha MT-07</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/1104372186-yamaha-mt-07.jpg?rule=play</imageUrl>
-        <price units="€">5490</price>
-        <url>https://www.custojusto.pt/leiria/motos/yamaha-mt-07-24873800</url>
-        <brand>Yamaha MT-07</brand>
+        <price units="€">5450</price>
+        <url>https://www.custojusto.pt/leiria/motos/yamaha-mt-07-com-alforges-24873800</url>
+        <brand>Yamaha MT-07 com Alforges</brand>
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/2688618984-mt-07.jpg?rule=play</imageUrl>
@@ -813,7 +795,7 @@
     </advert>
     <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/8348722444-yamaha-mt-09-tracer-2017.jpg?rule=play</imageUrl>
-        <price units="€">9700</price>
+        <price units="€">9500</price>
         <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-09-tracer-2017-23928890</url>
         <brand>Yamaha mt-09 Tracer 2017</brand>
     </advert>
@@ -830,6 +812,18 @@
         <brand>Mt 07 raceblue</brand>
     </advert>
     <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4268771066-yamaha-mt-09-tracer.jpg?rule=play</imageUrl>
+        <price units="€">8850</price>
+        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-09-tracer-24630219</url>
+        <brand>Yamaha mt 09 tracer</brand>
+    </advert>
+    <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3652424870-yamaha-mt-09-17mil-kms-como-nova.jpg?rule=play</imageUrl>
+        <price units="€">6500</price>
+        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-09-17mil-kms-como-nova-25021625</url>
+        <brand>Yamaha Mt 09 17mil kms como nova</brand>
+    </advert>
+    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/6725648629-yamaha-mt09-tracer.jpg?rule=play</imageUrl>
         <price units="€">9600</price>
         <url>https://www.custojusto.pt/braganca/motos/yamaha-mt09-tracer-24460748</url>
@@ -842,33 +836,15 @@
         <brand>Yamaha MT09 Tracer</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/8421822215-yamaha-mt-09-tracer.jpg?rule=play</imageUrl>
-        <price units="€">8850</price>
-        <url>https://www.custojusto.pt/lisboa/motos/yamaha-mt-09-tracer-24630219</url>
-        <brand>Yamaha mt 09 tracer</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5683889457-yamaha-mt-09-a-115cv.jpg?rule=play</imageUrl>
         <price units="€">8450</price>
         <url>https://www.custojusto.pt/porto/motos/yamaha-mt-09-a-115cv-24362132</url>
         <brand>Yamaha Mt-09 A 115cv</brand>
     </advert>
     <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/5558614462-yamaha-mt-09-2017.jpg?rule=play</imageUrl>
-        <price units="€">9000</price>
-        <url>https://www.custojusto.pt/porto/motos/yamaha-mt-09-2017-24352471</url>
-        <brand>yamaha mt-09 2017</brand>
-    </advert>
-    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/519332081-yamaha-mt-09.jpg?rule=play</imageUrl>
         <price units="€">6750</price>
         <url>https://www.custojusto.pt/guarda/motos/yamaha-mt-09-24823127</url>
         <brand>Yamaha mt-09</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/9506407312-yamaha-mt-09.jpg?rule=play</imageUrl>
-        <price units="€">9350</price>
-        <url>https://www.custojusto.pt/leiria/motos/yamaha-mt-09-24737148</url>
-        <brand>Yamaha mt 09</brand>
     </advert>
 </advertisements>
