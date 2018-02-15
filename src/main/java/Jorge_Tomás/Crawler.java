@@ -178,7 +178,12 @@ public class Crawler {
                 Elements advertDetails = document.getElementsByClass("offer-params__item");
                 Elements advertExtras = document.getElementsByClass("offer-features__item");
                 advertPrice = document.getElementsByClass("offer-price__number").text();
-                imageUrl = document.getElementsByClass("offer-photos-thumbs__link").first().attr("abs:data-thumb");
+                try {
+                    imageUrl = document.getElementsByClass("offer-photos-thumbs__link").first().attr("abs:data-thumb");
+                } catch (Exception e){
+                    System.out.println("No photo on advert: ");
+                    System.out.println(advert);
+                }
 
                 for (Element detail : advertDetails) {
                     Elements children = detail.children();
