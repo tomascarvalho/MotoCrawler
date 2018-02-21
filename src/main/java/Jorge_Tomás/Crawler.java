@@ -183,6 +183,8 @@ public class Crawler {
                 } catch (Exception e){
                     System.out.println("No photo on advert: ");
                     System.out.println(advert);
+                    imageUrl = "http://tutaki.org.nz/wp-content/uploads/2016/04/no-image-available.png";
+
                 }
 
                 for (Element detail : advertDetails) {
@@ -251,8 +253,12 @@ public class Crawler {
                 String imageUrl = new String();
                 Elements advertDetails = document.getElementsByClass("item");
                 advertPrice = document.getElementsByClass("price-label").text();
-                imageUrl = document.getElementsByClass("photo-handler rel inlblk").first().children().first().attr("abs:src");
-
+                try {
+                    imageUrl = document.getElementsByClass("photo-handler rel inlblk").first().children().first().attr("abs:src");
+                } catch(Exception e) {
+                    System.out.println("Exception occurred: "+ e + " -- On advert: " + advert);
+                    imageUrl = "http://tutaki.org.nz/wp-content/uploads/2016/04/no-image-available.png";
+                }
                 for (Element detail : advertDetails) {
                     Elements children = detail.children();
                     String[] details = children.first().text().split(" ");
@@ -336,6 +342,7 @@ public class Crawler {
                         imageUrl = document.getElementsByClass("img_big active b-greylight").first().children().first().attr("abs:src");
                     } catch (NullPointerException ne) {
                         //No image available
+                        System.out.println("No image available on advert: " + advert);
                         imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/No_image_3x4.svg/1024px-No_image_3x4.svg.png";
                     }
                     new_advert.setBrand(advertDescription);
