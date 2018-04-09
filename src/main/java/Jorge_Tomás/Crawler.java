@@ -312,8 +312,8 @@ public class Crawler {
             try {
                 document = Jsoup.connect(advert).get();
                 Advertisements.Advert new_advert = new Advertisements.Advert();
-                String advertPrice = new String();
-                String imageUrl = new String();
+                String advertPrice;
+                String imageUrl;
                 String advertDescription = document.getElementsByClass("words").first().text();
                 if (advertDescription.toLowerCase().contains("mt07") || advertDescription.toLowerCase().contains("mt-07")
                         || advertDescription.toLowerCase().contains("mt09") || advertDescription.toLowerCase().contains("mt-09") || advertDescription.toLowerCase().contains("mt 09")
@@ -322,9 +322,12 @@ public class Crawler {
                         || advertDescription.toLowerCase().contains("mt07") || advertDescription.toLowerCase().contains("mt-07") || advertDescription.toLowerCase().contains("mt 07")
                         || advertDescription.toLowerCase().contains("mt1") || advertDescription.toLowerCase().contains("mt-1") || advertDescription.toLowerCase().contains("mt 1")
                         || advertDescription.toLowerCase().contains("xsr")) {
-
-                    Elements advertDetails = document.getElementsByClass("list-group-item");
-                    advertPrice = document.getElementsByClass("real-price").first().text();
+                    try {
+                        advertPrice = document.getElementsByClass("real-price").first().text();
+                    } catch (Exception e) {
+                        System.out.println("No price available on advert: " + advert);
+                        advertPrice = "n/a";
+                    }
                     try {
                         imageUrl = document.getElementsByClass("img_big active b-greylight").first().children().first().attr("abs:src");
                     } catch (NullPointerException ne) {
