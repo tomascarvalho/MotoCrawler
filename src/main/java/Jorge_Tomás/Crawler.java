@@ -52,16 +52,22 @@ public class Crawler {
         advertisements = new Advertisements();
     }
     // Gets all the 'destaques' web pages
-    public void getWebPagesStandvirtual(String URL) {
-        pagesStandvirtual.add(URL);
+    public void getWebPagesStandvirtual_or_OLX(String URL, String provider) {
+        if (provider.equals("Standvirtual")) {
+            pagesStandvirtual.add(URL);
+        } else {
+            pagesOlx.add(URL);
+        }
         try {
             Document document = Jsoup.connect(URL).get();
             Elements otherPages = document.select("a[href^="+ URL + "&page=/]");
 
             for (Element page : otherPages) {
                 String pageHref= page.attr("abs:href");
-                if (!pagesStandvirtual.contains(pageHref)) {
+                if (provider.equals("Standvirtual")  && !pagesStandvirtual.contains(pageHref)) {
                     pagesStandvirtual.add(pageHref);
+                } else if (provider.equals("OLX") && !pagesOlx.contains(pageHref)) {
+                    pagesOlx.add(pageHref);
                 }
             }
 
@@ -72,25 +78,6 @@ public class Crawler {
 
     }
 
-    public void getWebPagesOlx(String URL) {
-        pagesOlx.add(URL);
-        try {
-            Document document = Jsoup.connect(URL).get();
-            Elements otherPages = document.select("a[href^="+ URL + "&page=/]");
-
-            for (Element page : otherPages) {
-                String pageHref= page.attr("abs:href");
-                if (!pagesOlx.contains(pageHref)) {
-                    pagesOlx.add(pageHref);
-                }
-            }
-
-        } catch (IOException e) {
-            System.err.println(e.getMessage());
-        }
-        System.out.println(pagesOlx);
-
-    }
     public void getWebPagesCustoJusto(String URL) {
         pagesCustoJusto.add(URL);
         try {
@@ -173,8 +160,8 @@ public class Crawler {
             try {
                 document = Jsoup.connect(advert).get();
                 Advertisements.Advert new_advert = new Advertisements.Advert();
-                String advertPrice = new String();
-                String imageUrl = new String();
+                String advertPrice;
+                String imageUrl;
                 Elements advertDetails = document.getElementsByClass("offer-params__item");
                 Elements advertExtras = document.getElementsByClass("offer-features__item");
                 advertPrice = document.getElementsByClass("offer-price__number").text();
@@ -394,15 +381,15 @@ public class Crawler {
             File xmlFile = new File("adverts.xml");
             Crawler crawler = new Crawler();
 
-            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-01&search%5Bdescription%5D=1");
-            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-01/?search%5Bcountry%5D=");
-            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-03&search%5Bdescription%5D=1");
-            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-07/?search%5Bnew_used%5D=on");
-            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-07&search%5Bdescription%5D=1");
-            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-09/?search%5Bcountry%5D=");
-            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-09&search%5Bdescription%5D=1");
-            crawler.getWebPagesStandvirtual("https://www.standvirtual.com/motos/yamaha/mt-10/?search%5Bcountry%5D=s");
-            crawler.getWebPagesOlx("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-10&search%5Bdescription%5D=1");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-01&search%5Bdescription%5D=1", "OLX");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.standvirtual.com/motos/yamaha/mt-01/?search%5Bcountry%5D=", "Standvirtual");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-03&search%5Bdescription%5D=1", "OLX");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.standvirtual.com/motos/yamaha/mt-07/?search%5Bnew_used%5D=on", "Standvirtual");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-07&search%5Bdescription%5D=1", "OLX");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.standvirtual.com/motos/yamaha/mt-09/?search%5Bcountry%5D=", "Standvirtual");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-09&search%5Bdescription%5D=1", "OLX");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.standvirtual.com/motos/yamaha/mt-10/?search%5Bcountry%5D=s", "Standvirtual");
+            crawler.getWebPagesStandvirtual_or_OLX("https://www.olx.pt/carros-motos-e-barcos/motociclos-scooters/yamaha/?search%5Bfilter_enum_modelo%5D%5B0%5D=mt-10&search%5Bdescription%5D=1", "OLX");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/mt-01");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt+01");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt01");
@@ -420,7 +407,7 @@ public class Crawler {
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-1");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt-1");
             crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/yamaha/q/mt1");
-            crawler.getWebPagesStandvirtual("http://www.custojusto.pt/portugal/motos/q/tracer");
+            crawler.getWebPagesCustoJusto("http://www.custojusto.pt/portugal/motos/q/tracer");
             crawler.getAdvertLink();
             crawler.getAdvertDetails();
             String xmlString = crawler.marshallList();
