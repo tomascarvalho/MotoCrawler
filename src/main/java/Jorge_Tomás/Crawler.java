@@ -348,6 +348,9 @@ public class Crawler {
             } catch (IOException e) {
                 System.err.println(e.getMessage());
                 System.out.println(advert);
+            } catch (NullPointerException ne) {
+                System.err.println(ne.getMessage());
+                System.out.println(advert);
             }
         });
     }
