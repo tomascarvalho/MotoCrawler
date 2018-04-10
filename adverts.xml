@@ -170,6 +170,42 @@
         <extras/>
     </advert>
     <advert>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/34004866_1_148x110.jpg</imageUrl>
+        <price units="€">8250</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-mt-09-ID8JpYpO.html#3fd9659902</url>
+        <brand>Yamaha</brand>
+        <model>MT-09</model>
+        <month>Abril</month>
+        <year>2015</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">10942</mileage>
+        <horsePower units="cv">115</horsePower>
+        <displacement units="cm3">847</displacement>
+        <color>Cinzento</color>
+        <extras>
+            <extra>Computador de bordo</extra>
+            <extra>Travão de disco</extra>
+            <extra>ABS</extra>
+            <extra>Indicador de mudança engrenada</extra>
+            <extra>Arranque eléctrico</extra>
+        </extras>
+    </advert>
+    <advert>
+        <imageUrl>https://carspt-images.akamaized.net/images_carspt/75168423_1_148x110_rev001.jpg</imageUrl>
+        <price units="€">7900</price>
+        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-yamaha-mt-09-ID8JA2CG.html#3fd9659902</url>
+        <brand>Yamaha</brand>
+        <model>MT-09</model>
+        <month>Março</month>
+        <year>2016</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">12700</mileage>
+        <horsePower units="cv">115</horsePower>
+        <displacement units="cm3">900</displacement>
+        <color>Vermelho</color>
+        <extras/>
+    </advert>
+    <advert>
         <imageUrl>https://carspt-images.akamaized.net/images_carspt/72025614_1_148x110.jpg</imageUrl>
         <price units="€">8500</price>
         <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-ID8KxrnY.html#3fd9659902</url>
@@ -225,21 +261,6 @@
             <extra>Proteção de punhos</extra>
             <extra>Travão de disco</extra>
         </extras>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/74913030_1_148x110_rev004.jpg</imageUrl>
-        <price units="€">9000</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-tracer-ID8KJlz0.html#3fd9659902</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Abril</month>
-        <year>2017</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">10500</mileage>
-        <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">847</displacement>
-        <color>Preto</color>
-        <extras/>
     </advert>
     <advert>
         <imageUrl>https://carspt-images.akamaized.net/images_carspt/71505192_1_148x110.jpg</imageUrl>
@@ -408,21 +429,6 @@
         </extras>
     </advert>
     <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/62601513_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">8250</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-yamaha-mt-09-ID8JA2CG.html#3fd9659902</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Março</month>
-        <year>2016</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">12700</mileage>
-        <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">900</displacement>
-        <color>Vermelho</color>
-        <extras/>
-    </advert>
-    <advert>
         <imageUrl>https://carspt-images.akamaized.net/images_carspt/70930125_1_148x110_rev001.jpg</imageUrl>
         <price units="€">8950</price>
         <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-yamaha-mt-09-tracer-ID8KjNCA.html#3fd9659902</url>
@@ -441,21 +447,6 @@
             <extra>Arranque eléctrico</extra>
             <extra>Travão de disco</extra>
         </extras>
-    </advert>
-    <advert>
-        <imageUrl>https://carspt-images.akamaized.net/images_carspt/72964209_1_148x110_rev001.jpg</imageUrl>
-        <price units="€">8980</price>
-        <url>https://www.standvirtual.com/anuncio/yamaha-mt-09-2018-ID8KB4k9.html#3fd9659902</url>
-        <brand>Yamaha</brand>
-        <model>MT-09</model>
-        <month>Dezembro</month>
-        <year>2017</year>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">1800</mileage>
-        <horsePower units="cv">115</horsePower>
-        <displacement units="cm3">900</displacement>
-        <color>Azul</color>
-        <extras/>
     </advert>
     <advert>
         <imageUrl>https://carspt-images.akamaized.net/images_carspt/72590712_1_148x110.jpg</imageUrl>
@@ -925,6 +916,18 @@
         <color>branco</color>
     </advert>
     <advert>
+        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/919216103_1_644x461_yamaha-mt-09-mt-09-almada_rev177.jpg</imageUrl>
+        <price units="€">8250</price>
+        <url>https://www.olx.pt/anuncio/yamaha-mt-09-mt-09-IDAsq4r.html#b8fe5fbcc4</url>
+        <model>MT-09</model>
+        <month>4</month>
+        <year>2015</year>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">10942</mileage>
+        <displacement units="cm3">501</displacement>
+        <color>cinzento</color>
+    </advert>
+    <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/932180774_1_644x461_yamaha-mt-09-albufeira.jpg</imageUrl>
         <price units="€">7800</price>
         <url>https://www.olx.pt/anuncio/yamaha-mt-09-IDAZ8AJ.html#b8fe5fbcc4</url>
@@ -970,18 +973,6 @@
         <mileage units="km">13500</mileage>
         <displacement units="cm3">501</displacement>
         <color>cinzento</color>
-    </advert>
-    <advert>
-        <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/939846302_1_644x461_yamaha-mt-09-tracer-sintra.jpg</imageUrl>
-        <price units="€">9000</price>
-        <url>https://www.olx.pt/anuncio/yamaha-mt-09-tracer-IDBp4as.html#b8fe5fbcc4</url>
-        <model>MT-09</model>
-        <month>4</month>
-        <year>2017</year>
-        <advertiser>Particular</advertiser>
-        <mileage units="km">10500</mileage>
-        <displacement units="cm3">501</displacement>
-        <color>preto</color>
     </advert>
     <advert>
         <imageUrl>https://img01-olxpt.akamaized.net/img-olxpt/938223183_1_644x461_yamaha-mt-09-coimbra_rev072.jpg</imageUrl>
