@@ -1154,6 +1154,12 @@
         <brand>Mt 07</brand>
     </advert>
     <advert>
+        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4539851737-yamaha-mt09-tracer.jpg?rule=play</imageUrl>
+        <price units="€">8000</price>
+        <url>https://www.custojusto.pt/braga/motos/yamaha-mt09-tracer-26085451</url>
+        <brand>Yamaha mt09 tracer</brand>
+    </advert>
+    <advert>
         <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/3560964708-yamaha-mt09-tracer-race-blue.jpg?rule=play</imageUrl>
         <price units="€">9650</price>
         <url>https://www.custojusto.pt/acores/motos/yamaha-mt09-tracer-race-blue--25998332</url>
@@ -1236,11 +1242,5 @@
         <price units="€">9500</price>
         <url>https://www.custojusto.pt/vila-real/motos/mt-09-trance-25296634</url>
         <brand>Mt 09 trance</brand>
-    </advert>
-    <advert>
-        <imageUrl>https://cdn-yams.schibsted.com/api/v1/adimgs/images/4539851737-yamaha-mt09-tracer.jpg?rule=play</imageUrl>
-        <price units="€">8000</price>
-        <url>https://www.custojusto.pt/braga/motos/yamaha-mt09-tracer-26085451</url>
-        <brand>Yamaha mt09 tracer</brand>
     </advert>
 </advertisements>
